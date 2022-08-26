@@ -1,0 +1,16 @@
+SELECT - selects columns from certain table (can specify multiply columns separated by ',')
+    Derived Column - when selecting columns, you can create a new column for example of 2 columns added together, you can name this new column by using AS
+
+FROM - get tables from which you want to pull data
+
+WHERE - display subsets of tables based on conditions that must be met
+    LIKE - operator that can find things such as all company names that start with 'S'
+    IN - operator similar to '=' but can be run on multiple values
+    NOT - can be paired up with other operators to find the opposite
+    AND - operator that allows you to run two logical statements
+    BETWEEN - use with and to make a cleaner statement 
+    OR - links multiple logical statements (logic OR) can be used with all other operators
+
+ORDER BY - sort the results using data in any column (use DESC to order in descending), can use multiple columns in case one column has the same value
+
+LIMIT n - get first number n rows of table
