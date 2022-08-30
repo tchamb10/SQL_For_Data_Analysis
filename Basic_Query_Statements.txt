@@ -1,7 +1,9 @@
 SELECT - selects columns from certain table (can specify multiply columns separated by ',')
     Derived Column - when selecting columns, you can create a new column for example of 2 columns added together, you can name this new column by using AS
+    You can also give a column an Alias name within a table
 
 FROM - get tables from which you want to pull data
+    You can give table names shorter alias by typing a letter or new name next to the FROM statement or JOIN
 
 WHERE - display subsets of tables based on conditions that must be met
     LIKE - operator that can find things such as all company names that start with 'S'
@@ -14,3 +16,8 @@ WHERE - display subsets of tables based on conditions that must be met
 ORDER BY - sort the results using data in any column (use DESC to order in descending), can use multiple columns in case one column has the same value
 
 LIMIT n - get first number n rows of table
+
+JOIN - joins information from one table to another
+    ON - using primary and foreign keys that link the tables together
+
+
