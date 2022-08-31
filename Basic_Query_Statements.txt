@@ -19,5 +19,9 @@ LIMIT n - get first number n rows of table
 
 JOIN - joins information from one table to another
     ON - using primary and foreign keys that link the tables together
+    LEFT JOIN - produces the same output as join/inner join but includes information from the 
+                left table even if it doesnt correspond to the right (the information will be 
+                filled with NULL)
+    RIGHT JOIN - produces same output as left but for right table
 
 
