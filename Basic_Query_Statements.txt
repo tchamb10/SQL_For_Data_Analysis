@@ -1,6 +1,11 @@
 SELECT - selects columns from certain table (can specify multiply columns separated by ',')
     Derived Column - when selecting columns, you can create a new column for example of 2 columns added together, you can name this new column by using AS
     You can also give a column an Alias name within a table
+    COUNT - counts # of rows in column
+    SUM - adds together all values in columns
+    MIN/MAX - return lowest lowest and highest values in column
+    AVERAGE - returns average of all values in column
+    DISTINCT - get unique values of column
 
 FROM - get tables from which you want to pull data
     You can give table names shorter alias by typing a letter or new name next to the FROM statement or JOIN
@@ -13,6 +18,8 @@ WHERE - display subsets of tables based on conditions that must be met
     BETWEEN - use with and to make a cleaner statement 
     OR - links multiple logical statements (logic OR) can be used with all other operators
 
+GROUP BY - aggregate data within subsets of the data
+
 ORDER BY - sort the results using data in any column (use DESC to order in descending), can use multiple columns in case one column has the same value
 
 LIMIT n - get first number n rows of table
@@ -23,5 +30,4 @@ JOIN - joins information from one table to another
                 left table even if it doesnt correspond to the right (the information will be 
                 filled with NULL)
     RIGHT JOIN - produces same output as left but for right table
-
 
